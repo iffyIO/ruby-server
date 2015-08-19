@@ -1,0 +1,5 @@
+#! /usr/bin/env ruby
+
+require_relative "../lib/server"
+
+server = Server.new ARGV[1] || "localhost", ARGV[0] || 2345
